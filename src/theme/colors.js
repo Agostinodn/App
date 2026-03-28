@@ -1,41 +1,64 @@
 export const colors = {
-  // Primary greens
-  primary: '#2ECC71',
-  primaryDark: '#27AE60',
-  primaryLight: '#A9DFBF',
-  primaryUltraLight: '#EAFAF1',
+  // Primary teal (Pilates brand)
+  primary: '#5B8A8A',
+  primaryDark: '#3D6B6B',
+  primaryLight: '#8AB5B5',
+  primaryUltraLight: '#EBF3F3',
 
-  // Accent
-  accent: '#1ABC9C',
-  accentDark: '#17A589',
+  // Secondary sage green
+  secondary: '#8FAF7A',
+  secondaryLight: '#C4D9B8',
 
-  // Neutrals
+  // Accent terracotta
+  accent: '#D4956A',
+  accentLight: '#F0C9A8',
+  accentDark: '#B8784E',
+
+  // Neutrals / backgrounds
   white: '#FFFFFF',
-  background: '#F8FFFE',
+  background: '#F8F5F0',
   surface: '#FFFFFF',
-  surfaceAlt: '#F0FBF6',
+  surfaceAlt: '#F0EDE8',
+  surfaceDark: '#E8E4DF',
 
   // Text
-  textPrimary: '#1A2E23',
-  textSecondary: '#5D7A6A',
-  textMuted: '#9BB5A8',
+  textPrimary: '#2C2C2C',
+  textSecondary: '#5A5A5A',
+  textMuted: '#9E9E9E',
   textOnPrimary: '#FFFFFF',
 
   // Borders
-  border: '#D5EDE2',
-  borderLight: '#EAF6EF',
+  border: '#E8E4DF',
+  borderLight: '#F2EFEA',
 
   // Status
-  error: '#E74C3C',
-  errorLight: '#FADBD8',
-  success: '#2ECC71',
-  warning: '#F39C12',
+  error: '#C9705A',
+  errorLight: '#F5E8E4',
+  success: '#6AB187',
+  successLight: '#EEF7F2',
+  warning: '#E8A87C',
+  warningLight: '#FCF3EC',
 
   // Shadows
-  shadowColor: '#27AE60',
+  shadowColor: '#3D6B6B',
 
   // Gradients (used as array)
-  gradientPrimary: ['#2ECC71', '#1ABC9C'],
-  gradientDark: ['#27AE60', '#16A085'],
-  gradientSoft: ['#EAFAF1', '#D5F5E3'],
+  gradientPrimary: ['#5B8A8A', '#3D6B6B'],
+  gradientAccent: ['#D4956A', '#C47A50'],
+  gradientDark: ['#3D6B6B', '#2C2C2C'],
+  gradientSoft: ['#F8F5F0', '#F0EDE8'],
+  gradientCard: ['#EBF3F3', '#D5E8E8'],
+  gradientHero: ['rgba(44,44,44,0)', 'rgba(44,44,44,0.88)'],
+
+  // Level colors
+  levels: {
+    principiante: '#6AB187',
+    principianteBg: '#EEF7F2',
+    intermedio: '#E8A87C',
+    intermedioBg: '#FCF3EC',
+    avanzato: '#C9705A',
+    avanzatoBg: '#F5E8E4',
+    tutti: '#5B8A8A',
+    tuttiBg: '#EBF3F3',
+  },
 };
